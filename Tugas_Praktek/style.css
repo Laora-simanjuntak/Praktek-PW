@@ -1,0 +1,83 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    color: blue
+}
+
+.bg {
+    background-image: url('raja-ampat/Foto.jpg');
+    color: black;
+}
+
+.header {
+    background: black;
+    height: 100px;
+    margin: 0;
+    text-align: center;
+}
+
+.judul {
+    color: white;
+    font-family: 'Comic Sans MS';
+    padding-top: 50px;
+    text-transform: uppercase;
+}
+
+.ra {
+    background-image: url('raja-ampat/banner-raja-ampat.webp');
+    margin: 0;
+    padding-bottom: 20px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ra-title {
+    color: white;
+    text-align: center;
+    font-size: 1cm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 50px;
+}
+
+.ra-description {
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+
+.ra-title-description {
+    color: black;
+    text-align: center;
+    margin-top: 10cm;
+}
+
+.promosi {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.section-baru {
+    margin-bottom: 100px;
+}
+
+.selection {
+    text-decoration: wavy;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
+
+.gambar {
+    height: 200px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
