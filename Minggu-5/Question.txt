@@ -1,0 +1,16 @@
+1. Nilai-nilai apa saja yang bisa di jadikan untuk pembuatan warna pada CSS
+ - Nilai Warna (dalam bahasa inggris)
+ - Nilai heksadesimal
+ - nilai heksadesimal dalam bentuk pendek
+ - nilai desimal
+ - nilai hsl
+
+2. Apa yang membedakan antara margin dan padding
+ - Padding berada di dalam konten, sedangkan madding berada di luar konten
+ - Padding menjauhkan teks dari border sedangkan margin menjauhi konten dari batas web
+ - Padding bisa menggunkan nilai auto, margin tidak
+ - Padding tidak bisa menggunkan nilai negatif , margin tidak bisa menggunkan nilai negatif
+
+3. Sebutkan dua jenis selektor yang kamu ketahui
+ - ID    => melakukann pemelihan terhadap id dengan nilai first
+ - Class => Melakukan pemelihan terhadap class dengan nilai last
