@@ -1,0 +1,15 @@
+1. Apa yang di maksud dengan Version Control System
+    Sebuah perangkat lunak yang membantu tum pengembangan perangkat lunak untuk bekerja sama dan menyimpan seluruh sejarah dari pekerjaan mereka
+2. Apa manfaat dari penggunaan Git?
+    Memungkinkan mengelola proyek atau berkas secara terdistribusi
+    Memungkinkan kerja kolaborasi, penggabungan beberapa berkas
+3. Sebutkan perintah dasar yang ada pada Git!
+    Git init    => inisiasi/renisiasi direktori
+    Git Config  => menambahkan konfigurasi GitGit clone => Menggandakan repository
+    Git pull    => menggandakann 
+    Git status  => Menampilkanperbedaanfile-file yang telah diubah dengan yang telah disimpan dalam commit
+    Git log     => Menampilkandaftar log yang tersimpandi branch/tag/commit
+    Git checkout=> Pindah kecabang/tag/commit
+    Git add     => Menambah kode yang telah dimodifikasi
+    Git commit  => Menambahkan snapshot (berisipesan) dalam
+    Git push    => Upload commit dari local keremote repository
