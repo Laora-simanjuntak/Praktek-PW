@@ -1,0 +1,18 @@
+1. Perintah apa saja yang harus kita lakukan sebelum melakukan perubahan pada proyek GIT?
+  - git init
+  - git config--list
+  - user.name
+  - user.email
+
+2. Sebutkan dan jelaskan tahapan-tahapan yang terjadi pada kolaborasi GIT?
+   - Untracked => Memberikan informasi tentang file untracked pada repository git hanya berdasarkan email tidak masuk dalam repository local maupun global
+   - Unmodified => File yang sedang di track oleh git dan tidak mengalami perubahan sejak commit terakhir
+   - Modified => ketika kita membuat perubahan pada file yang sedang di travk oleh git, maka file tersebut akan Modified
+   - Staged => file yang sudah di modifikasi dan di tandai
+
+3. Apa yang dilakukan pada perintah git status?
+ perintah ini digunakan untuk melakukan pengecekan terhadap adakah file/folder yang belum dilakukan proses commit (siap untukdi kirim).
+
+4. Setelah kita melakukan proses penambahan ke dalam file, apakah kita bisa langsung 
+menambahkan ke dalam repository global? Jika tidak, jelaskan mengapa!
+ TIdak setelah melakukan prosdes perubahan kedalam file, kita tidak bisa langsung menambahkannya ke dalam repository global, hal ini dikarenakan setiap perubahan pada repository harus melalui tahap tahap agar aman dan teratur serta dapat melacak setiap perubahan yang terjadi. 

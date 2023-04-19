@@ -1,0 +1,122 @@
+
+LAB@LAB07-32 MINGW64 /d/PW_221130669_LaoraSimanjuntak/Minggu 7
+$ git clone https://github.com/Laora-simanjuntak/PerancanganWeb.git
+Cloning into 'PerancanganWeb'...
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (4/4), done.
+
+LAB@LAB07-32 MINGW64 /d/PW_221130669_LaoraSimanjuntak/Minggu 7
+$ git init
+Initialized empty Git repository in D:/PW_221130669_LaoraSimanjuntak/Minggu 7/.git/
+
+LAB@LAB07-32 MINGW64 /d/PW_221130669_LaoraSimanjuntak/Minggu 7 (master)
+$ git branch keterangan
+fatal: not a valid object name: 'master'
+
+LAB@LAB07-32 MINGW64 /d/PW_221130669_LaoraSimanjuntak/Minggu 7 (master)
+$ cd..
+bash: cd..: command not found
+
+LAB@LAB07-32 MINGW64 /d/PW_221130669_LaoraSimanjuntak/Minggu 7 (master)
+$ cd ..
+
+LAB@LAB07-32 MINGW64 /d/PW_221130669_LaoraSimanjuntak
+$ mkdir test
+
+LAB@LAB07-32 MINGW64 /d/PW_221130669_LaoraSimanjuntak
+$ cd test
+
+LAB@LAB07-32 MINGW64 /d/PW_221130669_LaoraSimanjuntak/test
+$ git remote add origin https://github.com/Laora-simanjuntak/PerancanganWeb.git
+fatal: not a git repository (or any of the parent directories): .git
+
+LAB@LAB07-32 MINGW64 /d/PW_221130669_LaoraSimanjuntak/test
+$ git init
+Initialized empty Git repository in D:/PW_221130669_LaoraSimanjuntak/test/.git/
+
+LAB@LAB07-32 MINGW64 /d/PW_221130669_LaoraSimanjuntak/test (master)
+$ git remote add origin https://github.com/Laora-simanjuntak/PerancanganWeb.git
+
+LAB@LAB07-32 MINGW64 /d/PW_221130669_LaoraSimanjuntak/test (master)
+$ git pull origin main
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), 1.37 KiB | 351.00 KiB/s, done.
+From https://github.com/Laora-simanjuntak/PerancanganWeb
+ * branch            main       -> FETCH_HEAD
+ * [new branch]      main       -> origin/main
+
+LAB@LAB07-32 MINGW64 /d/PW_221130669_LaoraSimanjuntak/test (master)
+$ git branch
+* master
+
+LAB@LAB07-32 MINGW64 /d/PW_221130669_LaoraSimanjuntak/test (master)
+$ git branch keterangan
+
+LAB@LAB07-32 MINGW64 /d/PW_221130669_LaoraSimanjuntak/test (master)
+$ git branch
+  keterangan
+* master
+
+LAB@LAB07-32 MINGW64 /d/PW_221130669_LaoraSimanjuntak/test (master)
+$ git checkout keterangan
+Switched to branch 'keterangan'
+
+LAB@LAB07-32 MINGW64 /d/PW_221130669_LaoraSimanjuntak/test (keterangan)
+$ touch file_keterangan
+
+LAB@LAB07-32 MINGW64 /d/PW_221130669_LaoraSimanjuntak/test (keterangan)
+$ vim file_keterangan
+
+[1]+  Stopped                 vim file_keterangan
+
+LAB@LAB07-32 MINGW64 /d/PW_221130669_LaoraSimanjuntak/test (keterangan)
+$ vim file_keteranagn
+
+[2]+  Stopped                 vim file_keteranagn
+
+LAB@LAB07-32 MINGW64 /d/PW_221130669_LaoraSimanjuntak/test (keterangan)
+$ vim file_keterangan
+
+LAB@LAB07-32 MINGW64 /d/PW_221130669_LaoraSimanjuntak/test (keterangan)
+$ git add file_keterangan
+warning: in the working copy of 'file_keterangan', LF will be replaced by CRLF the next time Git touches it
+
+LAB@LAB07-32 MINGW64 /d/PW_221130669_LaoraSimanjuntak/test (keterangan)
+$ git commit -m "Menambahkan file keterangan"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'LAB@LAB07-32.(none)')
+
+LAB@LAB07-32 MINGW64 /d/PW_221130669_LaoraSimanjuntak/test (keterangan)
+$ git config user.name "Laora Simanjuntak"
+
+LAB@LAB07-32 MINGW64 /d/PW_221130669_LaoraSimanjuntak/test (keterangan)
+$ git config user.email "221130669@students.mikroskil.ac.id"
+
+LAB@LAB07-32 MINGW64 /d/PW_221130669_LaoraSimanjuntak/test (keterangan)
+$ git push origin keterangan
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'keterangan' on GitHub by visiting:
+remote:      https://github.com/Laora-simanjuntak/PerancanganWeb/pull/new/keterangan
+remote:
+To https://github.com/Laora-simanjuntak/PerancanganWeb.git
+ * [new branch]      keterangan -> keterangan
+
+LAB@LAB07-32 MINGW64 /d/PW_221130669_LaoraSimanjuntak/test (keterangan)
