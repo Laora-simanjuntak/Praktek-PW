@@ -1,0 +1,23 @@
+.bg {
+    background-image: url('Foto.jpg');
+    color: black;
+}
+
+.header {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.selection {
+    text-decoration: wavy;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
+
+.gambar {
+    height: 200px;
+}

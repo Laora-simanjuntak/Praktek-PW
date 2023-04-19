@@ -1,0 +1,9 @@
+Apa yang di maksud dengan CSS, CSS adalah Cascading Style Sheets yaitu sebuah bahsa pemrograman yang di gunakan untuk mendefenisikan tampilan atau styling pada halaman web
+
+Manfaat dari penggunaan CSS adalah memisahkan antara struktur dan presentasi halaman web, sehingga mempermudah pengelola dan pemeliharaan halaman web
+
+aturan yang ada pada CSS 
+    selector adalah elemen HTML atau kelasatau ID atau atribut yang ingin diberigaya. Contohselector: h1, .class, #id, [type="text"].
+    •Di dalam kurung kurawal ({}), kita menuliskan satu atau beberapa properti CSS yang ingin  diterapkan pada selector.
+    •Setiap properti CSS terdiri dari duabagian: nama propertidan nilai  properti, yang dipisahkan oleh titik dua(:).
+    •Setiap baris harus diakhiri dengan titik koma (;).
